@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_10_143458) do
+ActiveRecord::Schema.define(version: 2019_11_11_021829) do
 
   create_table "oauth_access_grants", force: :cascade do |t|
     t.integer "resource_owner_id", null: false
@@ -54,12 +54,29 @@ ActiveRecord::Schema.define(version: 2019_11_10_143458) do
     t.index ["uid"], name: "index_oauth_applications_on_uid", unique: true
   end
 
+  create_table "posts", force: :cascade do |t|
+    t.decimal "longitude", null: false
+    t.decimal "latitude", null: false
+    t.string "blood_type", null: false
+    t.integer "blood_amount", null: false
+    t.string "name"
+    t.string "age"
+    t.text "description"
+    t.boolean "archived", default: false
+    t.datetime "archive_date"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_posts_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "username", null: false
     t.string "password_digest", null: false
+    t.string "first_name", null: false
+    t.string "last_name", null: false
     t.string "email"
-    t.string "first_name"
-    t.string "last_name"
+    t.string "mobile_number"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

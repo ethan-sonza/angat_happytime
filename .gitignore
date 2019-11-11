@@ -25,3 +25,101 @@ dugo/.byebug_history
 
 # Ignore master key for decrypting credentials and more.
 dugo/config/master.key
+
+# Mobile
+ 
+# Xcode
+DugoMobile/**/*.xcodeproj
+DugoMobile/**/*.pbxproj
+DugoMobile/**/*.xcworkspacedata
+DugoMobile/**/*.xcsettings
+DugoMobile/**/*.xcscheme
+DugoMobile/*.pbxuser
+DugoMobile/default.pbxuser
+DugoMobile/*.mode1v3
+DugoMobile/default.mode1v3
+DugoMobile/*.mode2v3
+DugoMobile/default.mode2v3
+DugoMobile/*.perspectivev3
+DugoMobile/default.perspectivev3
+DugoMobile/xcuserdata
+DugoMobile/*.xccheckout
+DugoMobile/*.moved-aside
+DugoMobile/DerivedData
+DugoMobile/*.hmap
+DugoMobile/*.ipa
+DugoMobile/*.xcuserstate
+DugoMobile/project.xcworkspace
+
+# Gradle
+DugoMobile/build/
+DugoMobile/RNTester/android/app/build/
+DugoMobile/RNTester/android/app/gradle/
+DugoMobile/RNTester/android/app/gradlew
+DugoMobile/RNTester/android/app/gradlew.bat
+DugoMobile/ReactAndroid/build/
+
+# Buck
+DugoMobile/.buckd
+DugoMobile/buck-out
+DugoMobile/ReactAndroid/src/main/jni/prebuilt/lib/armeabi-v7a/
+DugoMobile/ReactAndroid/src/main/jni/prebuilt/lib/x86/
+DugoMobile/ReactAndroid/src/main/gen
+
+# Watchman
+DugoMobile/.watchmanconfig
+
+# Android
+DugoMobile/.idea
+DugoMobile/.gradle
+DugoMobile/local.properties
+DugoMobile/*.iml
+DugoMobile/android/
+
+# Node
+DugoMobile/node_modules
+DugoMobile/*.log
+DugoMobile/.nvm
+DugoMobile/bots/node_modules/
+DugoMobile/package-lock.json
+
+# OS X
+DugoMobile/.DS_Store
+
+# Test generated files
+DugoMobile/ReactAndroid/src/androidTest/assets/AndroidTestBundle.js
+DugoMobile/*.js.meta
+
+DugoMobile/coverage
+DugoMobile/third-party
+
+# Root dir shouldn't have Xcode project
+DugoMobile/*.xcodeproj
+
+# ReactCommon subdir shouldn't have Xcode project
+DugoMobile/ReactCommon/**/*.xcodeproj
+DugoMobile/RNTester/build
+
+# Libs that shouldn't have Xcode project
+DugoMobile/Libraries/FBLazyVector/**/*.xcodeproj
+DugoMobile/Libraries/FBReactNativeSpec/**/*.xcodeproj
+DugoMobile/Libraries/RCTRequired/**/*.xcodeproj
+DugoMobile/React/CoreModules/**/*.xcodeproj
+DugoMobile/packages/react-native-codegen/**/*.xcodeproj
+
+# CocoaPods
+DugoMobile/template/ios/Pods/
+DugoMobile/template/ios/Podfile.lock
+DugoMobile/RNTester/Gemfile.lock
+
+# Ignore RNTester specific Pods, but keep the __offline_mirrors__ here.
+DugoMobile/RNTester/Pods/*
+DugoMobile/RNTester/Pods/__offline_mirrors
+
+# react-native-codegen
+DugoMobile/ReactCommon/fabric/components/rncore/
+DugoMobile/schema-rncore.json
+
+# Visual studio
+DugoMobile/.vscode
+DugoMobile/.vs
