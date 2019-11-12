@@ -1,5 +1,5 @@
 export default {
-  API_HOST: 'https://78f2713f.ngrok.io', 
+  API_HOST: 'https://33da10c3.ngrok.io', 
   API_ROOT: '/api/v1',
   pages: [
     {

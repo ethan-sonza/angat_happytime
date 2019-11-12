@@ -1,14 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import { Text, View, FlatList, Button } from 'react-native';
+import React from 'react';
+import { TouchableOpacity, View } from 'react-native';
 import styles from './style'
 
-function PostItem({post}) {
+import PostDetails from '../postDetails'
+
+function PostItem({ post, onItemSelect }) {
   return (
-    <View style={styles.post}>
-      <Text>{post.name}</Text>
-    </View>
+    <TouchableOpacity onPress={() => onItemSelect(post)}>
+      <View style={styles.post}>
+        <PostDetails post={post} />
+      </View>
+    </TouchableOpacity>
   )
 }
-
 export default PostItem;
 

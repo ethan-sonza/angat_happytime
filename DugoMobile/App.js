@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { DrawerLayoutAndroid } from 'react-native';
 import { NativeRouter, Route } from "react-router-native";
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faTimes, faPlus } from '@fortawesome/free-solid-svg-icons'
 import AsyncStorage from '@react-native-community/async-storage';
 
 import Drawer from './screens/components/drawer'
@@ -12,7 +12,7 @@ import Faq from './screens/faq';
 import Login from './screens/login';
 import Profile from './screens/profile';
 
-library.add(faBars)
+library.add(faBars, faTimes, faPlus)
 
 export default function App() {
   let drawer = useRef(null);
