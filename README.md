@@ -37,16 +37,16 @@
 ### Screenshots
 
 #### Board of Posts
-<img src="./readme/board.jpg" alt="Board"/>
+<img src="./readme/board.jpg" alt="Board" width="40%" />
 
 #### Post (Temp)
-<img src="./readme/post.jpg" alt="Post"/>
+<img src="./readme/post.jpg" alt="Post" width="40%" />
 
 #### Drawer
-<img src="./readme/drawer.jpg" alt="Drawer"/>
+<img src="./readme/drawer.jpg" alt="Drawer" width="40%" />
 
 #### FAQ
-<img src="./readme/faq.jpg" alt="FAQ"/>
+<img src="./readme/faq.jpg" alt="FAQ" width="40%" />
 
 #### Blood Banks
-<img src="./readme/banks.PNG" alt="Banks"/>
+<img src="./readme/banks.jpg" alt="Banks"width="40%" />
