@@ -49,4 +49,4 @@
 <img src="./readme/faq.jpg" alt="FAQ" width="40%" />
 
 #### Blood Banks
-<img src="./readme/banks.jpg" alt="Banks"width="40%" />
+<img src="./readme/banks.jpg" alt="Banks" width="40%" />
