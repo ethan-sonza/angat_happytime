@@ -16,5 +16,10 @@
 - Posts will have more reach as it will be on a platform for those specifically catered to those who are willing blood donors
 - Blood donors will be able to appreciate more of their donations, since they are able to meet and help strangers
 
-### App Features
-- 
+### Features
+- [x] Board of posts looking for blood donations
+- [ ] Post will have the location marked on a map
+- [ ] FAQ Section
+- [ ] Filter posts with user's eligible bloodtype
+- [ ] View posts within their vicinity
+- [ ] List of Blood Banks within vicinity
