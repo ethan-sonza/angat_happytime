@@ -18,8 +18,18 @@
 
 ### Features
 - [x] Board of posts looking for blood donations
+- [x] FAQ Section
 - [ ] Post will have the location marked on a map
-- [ ] FAQ Section
 - [ ] Filter posts with user's eligible bloodtype
 - [ ] View posts within their vicinity
 - [ ] List of Blood Banks within vicinity
+- [ ] In-app messaging feature
+- [ ] 
+
+#### Notes
+- Features involving maps/vicinities are not checked because the Map integration has yet to be implemented
+- Other features are tasks we intend to add in the future
+
+### Technology
+- Rails 5
+- ReactNative 61
