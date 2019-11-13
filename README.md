@@ -24,7 +24,7 @@
 - [ ] View posts within their vicinity
 - [ ] List of Blood Banks within vicinity
 - [ ] In-app messaging feature
-- [ ] 
+- [ ] TODO: Complete CRUD for Posts and Profile
 
 #### Notes
 - Features involving maps/vicinities are not checked because the Map integration has yet to be implemented
