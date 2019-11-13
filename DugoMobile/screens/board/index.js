@@ -1,12 +1,17 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Text, View, FlatList, Modal, TouchableHighlight, TouchableOpacity } from 'react-native';
+import { Text, View, FlatList, Modal, TouchableHighlight, TouchableOpacity, ScrollView } from 'react-native';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import axios from 'axios';
+import { YellowBox } from 'react-native'
 
 import constants from '../../constants'
 import styles from './style'
 import PostItem from '../components/postItem'
 import PostDetails from '../components/postDetails';
+
+YellowBox.ignoreWarnings([
+  'VirtualizedLists should never be nested', // TODO: Occurs when FlatList is inside ScrollView since v61. Fairly new, will keep an eye out.
+])
 
 function Board() {
   const didMountRef = useRef(false);
@@ -41,7 +46,7 @@ function Board() {
 
   return (
     <React.Fragment>
-      <View>
+      <ScrollView>
         { loading && <Text>Loading...</Text>}
         { !posts.length && !loading && <Text>No Posts</Text>}
         <FlatList
@@ -69,7 +74,7 @@ function Board() {
             </View>
           </View>
         </Modal>
-      </View>
+      </ScrollView>
       <TouchableOpacity style={styles.add}>
         <FontAwesomeIcon icon="plus" color="white" size={26} />
       </TouchableOpacity>

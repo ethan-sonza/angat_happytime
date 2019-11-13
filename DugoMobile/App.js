@@ -11,6 +11,7 @@ import Board from './screens/board';
 import Faq from './screens/faq';
 import Login from './screens/login';
 import Profile from './screens/profile';
+import BloodBanks from './screens/bloodbanks';
 
 library.add(faBars, faTimes, faPlus)
 
@@ -57,6 +58,7 @@ export default function App() {
         <Route path="/profile" render={() => (
           <Profile logout={tempLogout} />
         )} />
+        <Route path="/banks" component={BloodBanks} />
       </DrawerLayoutAndroid>
     </NativeRouter>
   )

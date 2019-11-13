@@ -9,11 +9,14 @@ export default {
       path: "/faq",
       name: "FAQ",
     }, {
-      path: "/login",
-      name: "Login",
+      path: "/banks",
+      name: "Blood Banks"
     }, {
       path: "/profile",
       name: "My Profile",
-    },
+    }, {
+      path: "/login",
+      name: "Login",
+    }
   ]
 }
