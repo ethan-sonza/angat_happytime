@@ -1,5 +1,5 @@
 export default {
-  API_HOST: 'https://33da10c3.ngrok.io', 
+  API_HOST: '<REPLACE_WITH_LOCALHOST_OR_SERVER>', 
   API_ROOT: '/api/v1',
   pages: [
     {

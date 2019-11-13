@@ -33,3 +33,20 @@
 ### Technology
 - Rails 5
 - ReactNative 61
+
+### Screenshots
+
+#### Board of Posts
+<img src="./readme/board.jpg" alt="Board"/>
+
+#### Post (Temp)
+<img src="./readme/post.jpg" alt="Post"/>
+
+#### Drawer
+<img src="./readme/drawer.jpg" alt="Drawer"/>
+
+#### FAQ
+<img src="./readme/faq.jpg" alt="FAQ"/>
+
+#### Blood Banks
+<img src="./readme/banks.PNG" alt="Banks"/>
